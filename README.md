@@ -29,5 +29,3 @@ A través de técnicas de análisis de datos y visualización, se estudian las v
 - Limpieza y preparación de datos para análisis.  
 - Visualización de distribuciones y relaciones entre variables.  
 - Análisis de correlación para identificar factores más influyentes en la calidad del vino.  
-
----
