@@ -1,37 +1,24 @@
-**CALIDAD DEL VINO TINTO**
+# 🍷 Análisis de Calidad del Vino
 
-Wine Quality Dataset: https://archive.ics.uci.edu/dataset/186/wine+quality
+Este proyecto utiliza **Python** y librerías de análisis de datos para explorar y analizar el famoso dataset de calidad del vino. El objetivo es entender las características físico-químicas que influyen en la calidad y generar visualizaciones que apoyen el análisis.
 
-**INTRODUCCIÓN**
+## 📂 Contenido del proyecto
 
-El vino es una bebida de importancia histórica y económica, cuya calidad final depende de múltiples factores físico-químicos medibles en laboratorio. Evaluar cómo estas variables afectan la calidad sensorial del producto es esencial tanto para productores como para investigadores. Este estudio se centra en vinos tintos portugueses y busca aplicar técnicas estadísticas clásicas para comprender mejor los factores determinantes de la calidad. A través de pruebas de hipótesis, regresión y análisis de ajuste, se pretende extraer conclusiones robustas que puedan aportar a procesos de mejora continua en la producción vinícola.
+- **Wine.ipynb** → Notebook principal con todo el análisis.
+- **Dataset** → Incluye variables como acidez, pH, densidad, alcohol y puntuación de calidad del vino.
 
-El dataset de calidad del vino tinto proviene de investigaciones sobre vinos portugueses, específicamente de la región del Valle del Duero, famosa por su producción de vino. Este conjunto de datos es ampliamente utilizado para análisis exploratorios, estadísticos y aplicaciones de machine learning.
+## 📊 Objetivos
 
-**¿Qué contiene el datataset?**
+1. Cargar y explorar el dataset.
+2. Analizar la distribución de las variables.
+3. Identificar correlaciones entre características y calidad del vino.
+4. Visualizar patrones relevantes.
 
-Cada fila del dataset representa una muestra de vino tinto, y las columnas describen distintas características físico-químicas del vino, junto con una calificación de calidad otorgada por catadores expertos.
+## 🛠️ Tecnologías utilizadas
 
-Variables incluidas: fixed acidity: acidez fija (principalmente ácido tartárico)
-
-volatile acidity: acidez volátil (ácido acético)
-
-citric acid: ácido cítrico (presente en pequeñas cantidades)
-
-residual sugar: azúcar residual después de la fermentación
-
-chlorides: cantidad de sal (cloruro de sodio)
-
-free sulfur dioxide: dióxido de azufre libre (antiséptico/conservante)
-
-total sulfur dioxide: dióxido de azufre total
-
-density: densidad del vino
-
-pH: nivel de acidez
-
-sulphates: sulfatos (contribuyen al sabor)
-
-alcohol: porcentaje de alcohol por volumen
-
-quality: calificación sensorial del vino (de 0 a 10)
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
