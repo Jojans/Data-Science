@@ -1,6 +1,6 @@
 # 📊 Data Science Projects
 
-Este repositorio recopila diferentes proyectos de **Ciencia de Datos** desarrollados con **Python**, **R** y **SQL**
+Este repositorio recopila diferentes proyectos de **Ciencia de Datos** desarrollados con **Python** y **R**
 
 El objetivo es explorar, limpiar, visualizar y analizar datasets reales, aplicando técnicas de análisis exploratorio de datos (EDA) y modelos básicos para obtener insights relevantes.
 
