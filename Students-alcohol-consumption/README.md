@@ -1,79 +1,25 @@
-Kaggle: https://www.kaggle.com/datasets/uciml/student-alcohol-consumption
+# 📚 Análisis del Consumo de Alcohol en Estudiantes
 
-**Introducción**
+Este proyecto analiza datos sobre el consumo de alcohol en estudiantes de secundaria, explorando patrones y relaciones con factores académicos, sociales y familiares.  
+Se utilizan técnicas de análisis exploratorio de datos (EDA) y visualización para identificar insights clave.
 
-El consumo de alcohol entre adolescentes es un fenómeno que preocupa a educadores, padres y profesionales de la salud debido a su impacto en el rendimiento académico, el desarrollo personal y la salud a largo plazo. Entender los factores que influyen en este comportamiento es esencial para diseñar políticas educativas y programas de intervención que fomenten estilos de vida más saludables.
+## 📂 Contenido del proyecto
 
-El presente proyecto se centra en el conjunto de datos Student Alcohol Consumption de Kaggle, originalmente parte del proyecto de UCI Machine Learning Repository, proporciona información valiosa para analizar estas dinámicas. Los datos se recopilaron mediante encuestas aplicadas a estudiantes de secundaria en Portugal como parte de un estudio más amplio sobre el rendimiento académico. Este conjunto de datos incluye detalles sobre las características personales, sociales, familiares y escolares de los estudiantes, junto con información sobre el consumo de alcohol.
+- **Students_alcohol_consumption.ipynb** → Notebook con todo el análisis y visualizaciones.
+- **Dataset** → Incluye información sobre hábitos de consumo de alcohol, desempeño académico y características demográficas de los estudiantes.
 
-El objetivo de este proyecto es analizar las variables presentes en el dataset para identificar patrones y relaciones significativas entre el consumo de alcohol y otros factores como el rendimiento académico, las relaciones familiares y las actividades extracurriculares. A través de este análisis, se espera obtener una comprensión más profunda de los factores que influyen en el comportamiento de los estudiantes y su impacto en su vida académica y personal.
+## 🎯 Objetivos
 
-**Contenido del dataset**
+1. Analizar la distribución del consumo de alcohol en estudiantes.
+2. Relacionar el consumo con variables académicas y familiares.
+3. Identificar posibles factores de riesgo.
+4. Generar visualizaciones que respalden las conclusiones.
 
-school - student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
+## 🛠️ Tecnologías utilizadas
 
-sex - student's sex (binary: 'F' - female or 'M' - male)
-
-age - student's age (numeric: from 15 to 22)
-
-address - student's home address type (binary: 'U' - urban or 'R' - rural)
-
-famsize - family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3)
-
-Pstatus - parent's cohabitation status (binary: 'T' - living together or 'A' - apart)
-
-Medu - mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 – 5th to 9th grade, 3 – secondary education or 4 – higher education)
-
-Fedu - father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 – 5th to 9th grade, 3 – secondary education or 4 – higher education)
-
-Mjob - mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')
-
-Fjob - father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')
-
-reason - reason to choose this school (nominal: close to 'home', school 'reputation', 'course' preference or 'other')
-
-guardian - student's guardian (nominal: 'mother', 'father' or 'other')
-
-traveltime - home to school travel time (numeric: 1 - <15 min., 2 - 15 to 30 min., 3 - 30 min. to 1 hour, or 4 - >1 hour)
-
-studytime - weekly study time (numeric: 1 - <2 hours, 2 - 2 to 5 hours, 3 - 5 to 10 hours, or 4 - >10 hours)
-
-failures - number of past class failures (numeric: n if 1<=n<3, else 4)
-
-schoolsup - extra educational support (binary: yes or no)
-
-famsup - family educational support (binary: yes or no)
-
-paid - extra paid classes within the course subject (Math or Portuguese) (binary: yes or no)
-
-activities - extra-curricular activities (binary: yes or no)
-
-nursery - attended nursery school (binary: yes or no)
-
-higher - wants to take higher education (binary: yes or no)
-
-internet - Internet access at home (binary: yes or no)
-
-romantic - with a romantic relationship (binary: yes or no)
-
-famrel - quality of family relationships (numeric: from 1 - very bad to 5 - excellent)
-
-freetime - free time after school (numeric: from 1 - very low to 5 - very high)
-
-goout - going out with friends (numeric: from 1 - very low to 5 - very high)
-
-Dalc - workday alcohol consumption (numeric: from 1 - very low to 5 - very high)
-
-Walc - weekend alcohol consumption (numeric: from 1 - very low to 5 - very high)
-
-health - current health status (numeric: from 1 - very bad to 5 - very good)
-
-absences - number of school absences (numeric: from 0 to 93)
-
-These grades are related with the course subject, Math or Portuguese:
-
-G1 - first period grade (numeric: from 0 to 20)
-
-G2 - second period grade (numeric: from 0 to 20)
-
-G3 - final grade (numeric: from 0 to 20, output target)
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
