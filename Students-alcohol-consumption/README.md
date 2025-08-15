@@ -17,7 +17,7 @@ Se utilizan técnicas de análisis exploratorio de datos (EDA) y visualización 
 
 ## 🛠️ Tecnologías utilizadas
 
-- Python 3.x
+- Python
 - Pandas
 - NumPy
 - Matplotlib
