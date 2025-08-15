@@ -4,7 +4,6 @@ Este repositorio recopila diferentes proyectos de **Ciencia de Datos** desarroll
 
 El objetivo es explorar, limpiar, visualizar y analizar datasets reales, aplicando técnicas de análisis exploratorio de datos (EDA) y modelos básicos para obtener insights relevantes.
 
-Cada proyecto incluye su propio notebook (`.ipynb`), scripts o reportes, junto con la explicación del análisis paso a paso.
 ---
 
 ## 📚 Students Alcohol Consumption  
@@ -30,15 +29,5 @@ A través de técnicas de análisis de datos y visualización, se estudian las v
 - Limpieza y preparación de datos para análisis.  
 - Visualización de distribuciones y relaciones entre variables.  
 - Análisis de correlación para identificar factores más influyentes en la calidad del vino.  
-
----
-
-## 🛠️ Tecnologías utilizadas
-- Python 3.x
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
 
 ---
