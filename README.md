@@ -1,6 +1,6 @@
 # 📊 Data Science Projects
 
-Este repositorio recopila diferentes proyectos de análisis de datos desarrollados con **Python**, enfocados en la exploración, visualización y obtención de insights a partir de datasets reales.
+Este repositorio recopila diferentes proyectos de análisis de datos desarrollados con **Python**, **R**, **SQL** y **Power BI**enfocados en la exploración, visualización y obtención de insights a partir de datasets reales.
 
 Cada proyecto incluye su propio notebook (`.ipynb`) con el código y visualizaciones, así como la explicación del análisis paso a paso.
 
